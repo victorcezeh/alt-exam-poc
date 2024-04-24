@@ -24,7 +24,7 @@ create table if not exists ALT_SCHOOL.CUSTOMERS
   customer_id uuid primary key,
   device_id uuid,
   location varchar(255),
-  currency bigint
+  currency varchar(3)
 );
 
 -- TODO: provide the command to copy the customers data in the /data folder into ALT_SCHOOL.CUSTOMERS
